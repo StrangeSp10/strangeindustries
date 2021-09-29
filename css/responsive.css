@@ -1,0 +1,134 @@
+/*------------------------------------------------
+	Responsive Media Queries
+-------------------------------------------------*/
+
+.pt-table.desktop-768 .pt-tablecell {
+  padding-bottom: 110px;
+  padding-top: 60px;
+}
+.pt-table.desktop-768 .pt-tablecell .page-nav {
+  bottom: 40px;
+}
+
+@media (min-width: 1025px) and (max-width: 1270px){
+  .page-title h2 {
+    font-size: 60px;
+  }
+  .title-bg {
+    font-size: 120px;
+  }
+}
+
+/*=====small Laptops (Portrait)=====*/
+@media (min-width: 980px) and (max-width: 1024px){
+  .page-title h2 {
+    font-size: 50px;
+  }
+  .title-bg {
+    font-size: 100px;
+  }
+}
+/*=====Tablet (Portrait)=====*/
+@media (min-width: 769px) and (max-width: 979px){
+  .page-title h2 {
+    font-size: 45px;
+  }
+  .title-bg {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 559px) and (max-width: 768px) {
+  .pt-table {
+    height: auto;
+  }
+  .filter a {
+  font-size:20px;
+  }
+  .pt-table,
+  .pt-tablecell {
+    display: block;
+  }
+  .page-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .page-title h2 {
+    font-size: 45px;
+  }
+  .title-bg {
+    font-size: 90px;
+  }
+
+}
+
+@media (min-width: 436px) and (max-width: 558px) {
+  .pt-table {
+    height: auto;
+  }
+  .filter a,.page-title p{
+  font-size:18px;
+  margin: 1px;
+  }
+  .pt-table,
+  .pt-tablecell {
+    display: block;
+  }
+  .page-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .page-title h2 {
+    font-size: 30px;
+  }
+  .title-bg {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 435px) {
+  .pt-table {
+    height: auto;
+  }
+  .filter a,.page-title p{
+  font-size:16px;
+  margin: 1px;
+  }
+  .pt-table,
+  .pt-tablecell {
+    display: block;
+  }
+  .page-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .page-title h2 {
+    font-size: 20px;
+  }
+  .title-bg {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 335px) {
+  .pt-table {
+    height: auto;
+  }
+  .filter a,.page-title p{
+  font-size:14px;
+  margin: 1px;
+  }
+  .pt-table,
+  .pt-tablecell {
+    display: block;
+  }
+  .page-title {
+  margin-bottom: 0px;
+  }
+  .page-title h2 {
+    font-size: 20px;
+  }
+  .title-bg {
+    font-size: 40px;
+  }
+}
